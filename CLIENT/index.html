@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI geeft je advies op welke kleding je moet dragen</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/marked/lib/marked.umd.js"></script>
+    <script src="app.js" defer></script>
+</head>
+
+<body>
+    <section class="hero">
+        <h1>John, the weather AI</h1>
+        <h2>Vraag John wat je moet aantrekken vandaag op basis van het weer</h2>
+        <p id="totalTokens">total tokens used: 0</p>
+    </section>
+    <section class="main">
+        <div id="chatOutput">
+        </div>
+        <div class="chatInput">
+            <form id="form" method="POST" onsubmit="getData(); return false">
+                <input type="text" placeholder="Vraag: wat moet ik aan vandaag?" name="question" value="">
+                <button id="button" name="button" value="save" type="submit">verstuur</button>
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>
