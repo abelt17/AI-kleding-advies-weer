@@ -1,2 +1,5 @@
 /taalmodel oefening.txt
 /use-case.txt
+/.env
+.env
+/SERVER/.env
