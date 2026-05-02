@@ -3,3 +3,4 @@
 /.env
 .env
 /SERVER/.env
+node_modules/
