@@ -3,8 +3,7 @@ const button = document.getElementById("button");
 const history = document.getElementById("chatOutput");
 const totalTokensText = document.getElementById("totalTokens");
 let totalTokens = 0;
-// const url = "http://localhost:3000";
-const url = "https://transcendent-clafoutis-797d40.netlify.app/";
+const url = "http://localhost:3000";
 
 
 
